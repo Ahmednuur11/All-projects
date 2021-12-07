@@ -24,7 +24,7 @@ function roll(){
     let diceTwoValue = Math.floor(Math.random()*6);
 
     console.log(diceOneValue,diceTwoValue);
-    // CHANGING IMAGES 
+    // CHANGING IMAGES
     document.querySelector("#die-1").setAttribute("src", images[diceOneValue]);
     document.querySelector("#die-2").setAttribute("src", images[diceTwoValue]);
     document.querySelector("#total").innerHTML = "Your Roll is" + ' ' + ( (diceOneValue + 1) + (diceTwoValue + 1) );
